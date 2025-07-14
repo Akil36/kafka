@@ -1,0 +1,155 @@
+bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+bin\windows\kafka-server-start.bat config\server.properties
+
+🛣️ KAFKA ROADMAP – BEGINNER TO ADVANCED
+🟢 1. Beginner Level – Kafka Basics						done
+
+✅ Goal: Understand what Kafka is, how it works, and basic hands-on with Producer/Consumer.
+
+🔹 Topics to Learn:
+		What is Kafka?
+
+		Why Kafka (vs RabbitMQ, ActiveMQ, etc.)
+
+		Core Concepts:
+
+		Broker
+
+		Topic
+
+		Partition
+
+		Producer
+
+		Consumer
+
+		Consumer Groups
+
+		Offset
+
+		Kafka Use Cases (real-time analytics, event streaming, etc.)
+
+🔹 Hands-on:
+		Install Kafka locally (Windows/Linux)
+
+		Create a topic
+
+		Start producer/consumer from CLI
+
+		Use Kafka with Spring Boot: Simple Producer/Consumer (we already did ✅)
+
+📘 Resource: Apache Kafka Official Docs
+
+🟡 2. Intermediate Level – Development with Kafka
+✅ Goal: Build robust apps using Kafka in real projects.
+
+🔹 Topics to Learn:
+		Kafka with Spring Boot (Advanced):
+
+		Configuring producers and consumers			            done
+
+		Error handling, retries, dead-letter topics
+
+		KafkaTemplate, KafkaListener, etc.			            done
+
+		Sending/Receiving JSON data					                done
+
+		Custom Serializers/Deserializers			              done
+
+		Kafka Headers								                        done
+
+		Partitioning logic & keys					                  done
+
+		Offset management (manual vs auto)
+
+		Kafka Streams basics
+
+🔹 Hands-on:
+		Spring Boot Kafka app with:
+
+		Multiple consumers+
+
+		Multiple topics
+
+		JSON payloads and DTOs
+
+		Error + Retry + DLQ handling
+
+📘 Resource: Spring Kafka docs – https://docs.spring.io/spring-kafka/docs/current/reference/html/
+
+🔴 3. Advanced Level – Performance, Ops, Streams
+✅ Goal: Become a Kafka pro who can scale, monitor, and build real-time pipelines.
+
+🔹 Topics to Learn:
+		Kafka Architecture in detail
+
+		Internals:
+
+		Log Segments
+
+		ISR (In-Sync Replicas)
+
+		Zookeeper role (or KRaft mode in newer versions)
+
+		Kafka Streams (real-time processing)
+
+		Kafka Connect (integration with DB, S3, etc.)
+
+		Schema Registry (Avro/Protobuf)
+
+		Kafka Security:
+
+		SSL/SASL Authentication
+
+		ACLs (Access control)
+
+		Performance tuning
+
+		Kafka monitoring with Prometheus + Grafana
+
+🔹 Hands-on:
+		Kafka + Kafka Streams (join/filter/windowing)
+
+		Kafka Connect with MySQL/Postgres
+
+		Monitor Kafka metrics
+
+		Setup secured Kafka cluster
+
+📘 Tools:
+
+Confluent Platform
+
+Kafdrop UI
+
+Burrow / Prometheus + Grafana
+
+📅 Suggested Learning Timeline
+			Week	Goal
+			1	Learn core concepts + run CLI producer/consumer
+			2	Spring Boot Kafka app (text & JSON)
+			3-4	Error handling, DLQ, multiple topics/groups
+			5-6	Kafka Streams & Connect
+			7+	Security, tuning, monitoring, production use cases
+
+🧰 Tools to Learn Along with Kafka
+✅ Kafka CLI
+
+✅ Spring Boot
+
+✅ Confluent Schema Registry
+
+✅ Kafka Connect
+
+✅ Prometheus & Grafana
+
+✅ Kafdrop (Kafka UI)
+
+🔥 Bonus Practice Ideas
+🛠 Build a real-time log processing app
+
+📦 Create order-service and invoice-service using Kafka events
+
+🎧 Build a notification system using Kafka topics per channel
+
+📉 Stream data from Kafka → PostgreSQL using Kafka Connect
