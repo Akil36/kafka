@@ -48,17 +48,17 @@ bin\windows\kafka-server-start.bat config\server.properties
 
 		Configuring producers and consumers			            done
 
-		Error handling, retries, dead-letter topics
+		Error handling, retries, dead-letter topics				done
 
 		KafkaTemplate, KafkaListener, etc.			            done
 
-		Sending/Receiving JSON data					                done
+		Sending/Receiving JSON data					            done
 
-		Custom Serializers/Deserializers			              done
+		Custom Serializers/Deserializers			            done
 
-		Kafka Headers								                        done
+		Kafka Headers								            done
 
-		Partitioning logic & keys					                  done
+		Partitioning logic & keys					            done
 
 		Offset management (manual vs auto)
 
