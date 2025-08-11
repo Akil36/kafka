@@ -60,7 +60,7 @@ bin\windows\kafka-server-start.bat config\server.properties
 
 		Partitioning logic & keys					            done
 
-		Offset management (manual vs auto)
+		Offset management (manual vs auto)						done
 
 		Kafka Streams basics
 
