@@ -62,7 +62,7 @@ bin\windows\kafka-server-start.bat config\server.properties
 
 		Offset management (manual vs auto)						done
 
-		Kafka Streams basics
+		Kafka Streams basics									done
 
 🔹 Hands-on:
 		Spring Boot Kafka app with:
